@@ -1,6 +1,6 @@
 import bpy
 
-class Snap_Cursor_Center_Operator(bpy.types.Operator):
+class SNAP3D_OT_snapToCenter(bpy.types.Operator):
     bl_idname = "view3d.cursor_center"
     bl_label = "Snap to center"
     bl_description = "Snap 3D Cursor to Center "

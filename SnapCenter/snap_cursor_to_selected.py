@@ -1,6 +1,6 @@
 import bpy
 
-class Snap_Cursor_Selected_Operator(bpy.types.Operator):
+class SNAP3D_OT_snapToSelected(bpy.types.Operator):
     bl_idname = "view3d.cursor_selected"
     bl_label = "Snap to selected"
     bl_description = "Snap 3D Cursor to Selected "

@@ -24,10 +24,10 @@ bl_info = {
 
 import bpy
 
-from . snap_cursor_to_center    import Snap_Cursor_Center_Operator
-from . snap_cursor_to_selected  import Snap_Cursor_Selected_Operator
-from . toolbox_panel            import Snap_Cursor_Panel
+from . snap_cursor_to_center    import SNAP3D_OT_snapToCenter
+from . snap_cursor_to_selected  import SNAP3D_OT_snapToSelected
+from . toolbox_panel            import SNAP3D_PT_snapCursorPanel
 
-classes = (Snap_Cursor_Center_Operator, Snap_Cursor_Selected_Operator, Snap_Cursor_Panel)
+classes = (SNAP3D_OT_snapToCenter, SNAP3D_OT_snapToSelected, SNAP3D_PT_snapCursorPanel)
 
 register, unregister = bpy.utils.register_classes_factory(classes)

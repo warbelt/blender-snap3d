@@ -1,9 +1,9 @@
 import bpy
 
-class Snap_Cursor_Panel(bpy.types.Panel):
-    bl_idname = "snap_cursor_panel"
+class SNAP3D_PT_snapCursorPanel(bpy.types.Panel):
+    bl_idname = "SNAP3D_PT_snapCursorPanel"
     bl_label = "Snap 3D Cursor"
-    bl_category = "Snap"
+    bl_category = "Snap3D"
     bl_space_type = "VIEW_3D"
     bl_region_type = "UI"
 
